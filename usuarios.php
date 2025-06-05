@@ -1,5 +1,4 @@
 <?php
-//hola
 $conn = new mysqli("localhost", "root", "", "app_usuarios");
 $result = $conn->query("SELECT nombre, email, password, foto FROM usuarios");
 
